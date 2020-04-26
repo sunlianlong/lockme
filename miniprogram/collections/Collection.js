@@ -4,7 +4,7 @@ import Config from '../utils/Config'
 export default class Collection extends Base {
   constructor(name) {
     super()
-    
+    console.log(name)
     this.items = []
     this.collectionName = Config.cloud.collections[name]
 

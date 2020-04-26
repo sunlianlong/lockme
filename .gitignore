@@ -16,3 +16,4 @@ node_modules/
 # Config
 project.config.json
 miniprogram/utils/Config.js
+miniprogram/cloudfunctions/

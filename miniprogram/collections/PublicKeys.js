@@ -8,6 +8,7 @@ class PublicKeyCollection extends Collection {
 
   get() {
     return this.getToast().then(res => {
+      console.log(res)
       this.items = res.data.map(i => new PublicKey(i))
       return this.items.length > 0 ? this.items[0] : null
     })

@@ -2,7 +2,7 @@
   <view class="flex wrap message {{ error ? 'error' : ''}}">
     <view class="flex main-center margin-bottom text"
       wx:for="{{message}}"
-      wx:key="{{index}}">
+      wx:key="index">
       <text>{{item}}</text>
     </view>
   </view>

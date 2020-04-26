@@ -33,7 +33,7 @@
     wx:if="{{!form.show && !isDiffPrivate}}"
 
     wx:for="{{safes}}"
-    wx:key="{{index}}"
+    wx:key="index"
 
     index="{{index}}"
     safe="{{item}}"

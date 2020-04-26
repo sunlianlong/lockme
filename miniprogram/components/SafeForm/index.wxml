@@ -47,7 +47,7 @@
           bindchange="setProp">
           <label class="checkbox"
             wx:for="{{checks}}"
-            wx:key="{{item.value}}">
+            wx:key="item.value">
             <checkbox
               class="checkbox-item"
               value="{{item.value}}"

@@ -6,7 +6,7 @@
   <view class="flex wrap main-center">
     <paragraph class="flex wrap"
       wx:for="{{items}}"
-      wx:key="{{index}}"
+      wx:key="index"
 
       data-index="{{index}}"
 

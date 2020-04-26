@@ -4,7 +4,7 @@
     <view class="boxs">
       <input class="box {{error ? 'shaking' : ''}}"
         wx:for="{{length}}"
-        wx:key="{{index}}"
+        wx:key="index"
 
         password='{{ispassword}}'
         value="{{value[index] ? value[index] : ''}}"
@@ -19,12 +19,12 @@
       wx:for="{{keyboard[type]}}" 
       wx:for-index="col"
       wx:for-item="colItem"
-      wx:key="{{col}}">
+      wx:key="col">
       <view class="button"
         wx:for="{{colItem}}"
         wx:for-index="row"
         wx:for-item="rowItem"
-        wx:key="{{col}}{{row}}"
+        wx:key="row"
         data-value="{{rowItem.value}}"
         data-type="{{rowItem.type}}"
         bindtap="event">
